@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Phần chung */
+#container {
+    margin: 5px;
+}
+
+/* Phần đầu */
+#header img {
+    width: 100%;
+}
+
+/* Phần chữ */
+#Quan-ly {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: deepskyblue;
+    font-size: 24px;
+    color: yellow;
+}
+
+/* Phần thân */
+#main {
+    margin-top: 5px;
+}
+
+/* Phần bảng thông tin sinh viên */
+#tableInf {
+    background-color: aliceblue;
+}
+
+#tableInf table, tr, td, th {
+    border: 1px solid black;
+}
+
+#tableInf td {
+    padding: 6px 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#tableInf th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 24px;
+    background-color: deepskyblue;
+    color: brown;
+}
+
+#tableInf button {
+    border-radius: 0;
+    padding: 1px 5px;
+}
+
+#tableInf button:nth-child(1) {
+    background-color: limegreen;
+}
+
+#tableInf button:nth-child(2) {
+    background-color: gold;
+}
+
+#tableInf input {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#tableInf {
+    float: left;
+}
+
+/* Phần bảng danh sách sinh viên */
+#showList {
+    float: right;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#showList table {
+    border: 1px solid black;
+}
+
+#showList th {
+    font-size: 18px;
+    padding: 8px 12px;
+    background-color: deepskyblue;
+}
+
+#showList td {
+    font-size: 16px;
+    padding: 8px 10px;
+}
+
+#showList button {
+    border-radius: 0;
+    margin-right: 5px;
+    padding: 2px 4px;
+    color: white;
+}
+
+#showList button:nth-child(1) {
+    background-color: red;
+}
+
+#showList button:nth-child(2) {
+    background-color: orange;
+}
+
+#showList img {
+    width: 120px;
+}
+
+
+
+
+
+
+
+

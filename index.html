@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+  <div id="header">
+    <img src="https://daihocchinhquy.neu.edu.vn/Content/logo/banner-yersin.jpg" alt="">
+  </div>
+
+  <div id="Quan-ly">
+    <h1>Quản lý học viên</h1>
+  </div>
+
+  <div id="main">
+    <div id="tableInf">
+      <table>
+        <tr>
+          <th colspan="2">Thông tin học viên</th>
+        </tr>
+        <tr>
+          <td><span>ID</span></td>
+          <td><input type="text" name="Id" id="Id"></td>
+        </tr>
+        <tr>
+          <td><span>Họ tên</span></td>
+          <td><input type="text" name="name" id="Name"></td>
+        </tr>
+        <tr>
+          <td><span>Ngày sinh</span></td>
+          <td><input type="text" name="birth" id="birthday"></td>
+        </tr>
+        <tr>
+          <td><span>Giới tính</span></td>
+          <td><input type="text" name="gender" id="gender"></td>
+        </tr>
+        <tr>
+          <td><span>Lớp</span></td>
+          <td><input type="text" name="classroom" id="classroom"></td>
+        </tr>
+        <tr>
+          <td><span>Ảnh</span></td>
+          <td><input type="text" name="linkImg" id="linkImage"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="button" onclick="addData()">Add</button>
+            <button type="button" onclick="saveData()">Save</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="showList">
+
+    </div>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
